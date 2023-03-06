@@ -10,8 +10,10 @@ export default function CampaignCard({ eventitem }) {
             <img src={eventitem.campaign_icon_url} alt="" />
           </div>
           <div className="details">
-            <h3>{eventitem.campaign_name}</h3>
-            <p>{eventitem.pay_per_install} per install</p>
+            <p className="event-name">{eventitem.campaign_name}</p>
+            <p className="event-install">
+              {eventitem.pay_per_install} per install
+            </p>
           </div>
         </div>
         <div className="videos-card">

@@ -8,3 +8,6 @@
   align-items: center;
   gap: 5rem;
 }
+.header-heading P {
+  font-weight: bold;
+}

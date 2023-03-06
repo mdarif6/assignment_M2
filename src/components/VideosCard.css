@@ -1,18 +1,22 @@
+.videos-and-footicons {
+  background-color: rgb(240, 237, 237);
+}
 .video {
   position: relative;
 }
 
 .video img {
   max-width: 200px;
-  padding: 2rem;
+  margin: 1rem;
   cursor: pointer;
+  border-radius: 1rem;
 }
 .footicons {
+  border: 1px solid red;
+  max-width: 100%;
+  /* height: 30px; */
+  margin: 0 1rem;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 1.5rem;
-  cursor: pointer;
 }
 .play-btn {
   position: relative;
@@ -27,3 +31,10 @@
   margin-left: -30px;
   margin-top: 0;
 } */
+
+.primary-btn i {
+  padding: 1rem;
+}
+.left,
+.right {
+}
