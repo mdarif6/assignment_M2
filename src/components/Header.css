@@ -1,0 +1,10 @@
+.plug-logo img {
+  width: 80px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5rem;
+}

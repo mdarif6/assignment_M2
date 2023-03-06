@@ -1,0 +1,29 @@
+.video {
+  position: relative;
+}
+
+.video img {
+  max-width: 200px;
+  padding: 2rem;
+  cursor: pointer;
+}
+.footicons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.play-btn {
+  position: relative;
+  display: inline-block;
+}
+/* .play-btn::after {
+  content: url("https://www.wonderplugin.com/download/playbutton.png");
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: 0;
+} */

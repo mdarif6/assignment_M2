@@ -1,0 +1,26 @@
+.event-card-iconetc {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+.event-card-iconetc img {
+  max-width: 50px;
+  border-radius: 0.5rem;
+}
+
+.videos-card {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.details p {
+  color: rgb(19, 237, 19);
+  font-weight: bold;
+}
