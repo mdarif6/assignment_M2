@@ -40,9 +40,9 @@ export default function VideosCard({ video }) {
             </button>
           </div>
           <div className="right">
-            <a href={video.download_url}>
+            <a href={video.download_url} download="file">
               <button className="primary-btn">
-                <i class="fa-solid fa-arrow-down"></i>
+                <i class="fa-solid fa-download"></i>
               </button>
             </a>
           </div>

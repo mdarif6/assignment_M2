@@ -3,8 +3,8 @@
   /* align-items: center; */
   gap: 1rem;
   /* justify-content: flex-start; */
-  /* margin-left: 2rem; */
-  border: 1px solid black;
+  margin-left: 1rem;
+  /* border: 1px solid black; */
 }
 .event-card-iconetc img {
   width: 60px;
